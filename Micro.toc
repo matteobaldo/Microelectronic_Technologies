@@ -4,4 +4,8 @@
 \contentsline {section}{\numberline {1.3}CZ-growth}{5}{section.1.3}
 \contentsline {section}{\numberline {1.4}Deal-Grove model}{5}{section.1.4}
 \contentsline {section}{\numberline {1.5}Lito resoution limit}{6}{section.1.5}
-\contentsline {section}{\numberline {1.6}Technology scaling; propagation delay}{7}{section.1.6}
+\contentsline {section}{\numberline {1.6}Lito contrast value}{7}{section.1.6}
+\contentsline {section}{\numberline {1.7}Technology scaling; propagation delay}{7}{section.1.7}
+\contentsline {section}{\numberline {1.8}Electromigration}{7}{section.1.8}
+\contentsline {section}{\numberline {1.9}Ion enanched etch rate}{7}{section.1.9}
+\contentsline {section}{\numberline {1.10}CVD regimes}{8}{section.1.10}
