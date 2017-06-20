@@ -1,6 +1,304 @@
 \chapter{Exams notes}
 
 %------------------------------------------------------------------------%
+\section{CZ-growth}
+
+\subsection{Doping concetration in the ingot}
+
+CZ growth of silicon gives different doping concentrations for the wafers depending on the distance from the top of the ingot.\\
+The parameters that we need to have the doping concentration at a certain value x are the segregation coefficient k and the initial dose of doping $C_0$
+\begin{equation}
+C=C_0 k (1-f)^{k-1}
+\end{equation}
+\\
+where f is the \% of the ingot where we are.
+
+\vspace{3mm}
+
+\centering
+
+\fbox{\begin{minipage}{40em}
+\centering
+{\bf Dimostration}\\
+\raggedright
+Define 
+\begin{itemize}
+\item $V_0,I_0,C_0$ volume, concentration and number of impurities in the initial fused silicon
+\item $V_l,I_l,C_l$ same of before but in the melted silicon after a certain time t
+\item $V_s,I_s,C_s$ same of before but in the solid cristal
+\end{itemize}
+When a little volume of silicon solidifies the concentration of impurities in the melt varies as 
+\begin{equation}
+dI_l=-kC_ldV_s=-kC_l=\frac{I_l}{V_0-V_s}dV_s
+\end{equation}
+so we can write
+\begin{equation}
+\int_{I_0}^{I_l}\frac{dI_l}{I_l}=\int_0^{V_s}-k \frac{dV_s}{V_0-V_s}
+\end{equation}
+doing the integration and getting rid of the log units we arrive at 
+\begin{equation}
+I_l=I_0 ( 1-\frac{V_s}{V_0} )^k
+\end{equation}
+by using the following relation 
+\begin{equation}
+C_s=-\frac{\partial I_l}{\partial V_s}
+\end{equation}
+we get the result 
+\begin{equation}
+C=C_0 k (1-f)^{k-1}
+\end{equation}
+
+
+\end{minipage}}
+\raggedright
+
+\vspace{3mm}
+
+Form the concentration we can derive the resistivity of the wafer as
+\begin{equation}
+\rho=\frac{1}{q\mu C}
+\end{equation}
+
+\subsection{Maximum pulling rate}
+\begin{equation}
+v_p^{max}=\frac{1}{LN}\sqrt{\frac{2\sigma \varepsilon k_m T_m^5}{3r}}\propto \sqrt{\frac{1}{r}}
+\end{equation}
+
+\section{Deal-Grove model}
+Using the correct tables parameters we can derive the coefficents B and B/A for wet or dry oxidation throught theyr Ahrrenius form 
+\begin{equation}
+B=C_1\cdot exp\left(-\frac{E_1}{kT} \right) \ \ \ \ \ \ \ \ \ \ \ \ B/A=C_2\cdot exp\left(-\frac{E_2}{kT} \right)
+\end{equation}
+or in an alternative way with theyr expressions
+\begin{equation}
+B=\frac{2DHP_G}{N} \ \ \ \ \ \ B/A=\frac{HP_G}{N \left( \frac{1}{k_s}+\frac{1}{h}  \right) }
+\end{equation}
+\\
+remember that 
+\begin{itemize}
+\item B is related to the transport througth the present oxide so it isn't dependent on cristal orientation.
+\item B/A is related to the interaction with the surface it's activation energy it's $\simeq 2eV$ that is the energy to break one Si-Si bond and it's strongly dependent on cristal orientation in fact
+\begin{equation}
+\left(\frac{B}{A}\right)_{<111>}=1.68\left(\frac{B}{A}\right)_{<100>}
+\end{equation}
+\end{itemize}
+Notice that none of the mentioned parameters depends on pressure.\\
+
+\vspace{5mm}
+
+The model gives us the following expression
+\begin{equation}
+\frac{x^2}{B}+\frac{x}{B/A}=t+\tau
+\end{equation}
+\\
+The boundary between the 2 regimes ,parabolic and linear, is given by the following thickness
+\begin{equation}
+x_b=\frac{B}{2B/A}
+\end{equation}
+\\
+\vspace{5mm}
+
+Beware that 46\% of the $SiO_2$ grows inside the silicon and the other 56\% over it.\\
+\vspace{5mm}
+In the first 20nm of $SiO_2$ the model is underestimating the real value of the thikness (exponential term).\\
+
+%------------------------------------------------------------------------%
+
+\section{CVD}
+
+\subsection{Regimes}
+
+\centering
+\includegraphics[width=0.5\textwidth]{CVD.png}\\
+\raggedright
+
+The velocity of deposition of a material in APCVD is determined by the slowest of two proces that operates in parallel; the transport of byproducts through the stagnant layer and the "reaction" with the surface.\\
+The velocity can be mathematically described as 
+\begin{equation}
+v=\frac{k_sh_g}{k_s+h_g}\frac{C_T}{N}Y
+\end{equation}
+where $k_s$ is the chemical surface reaction rate (has an Ahrrenius form so strongly dependent on temperature) and $h_g$ the mass transport coefficient (indipendent form temperature).\\
+We can distinguish in two case 
+\begin{itemize}
+\item $k_s<<h_g$ we are in surface reaction controlled regime; the geometry of the reaction does not matter so much this is the best case
+\item $h_g<<k_s$ mass transport controlled regime; the geometry of the reactor is foundamental to control the stagnant layer 
+\end{itemize}
+
+
+
+%------------------------------------------------------------------------%
+
+\subsection{APCVD rate}
+
+\centering
+
+\fbox{\begin{minipage}{40em}
+\centering
+{\bf Dimostration}\\
+
+Only two fluxes are present in the CVD deposition
+\begin{itemize}
+\item $F_1$ flux of material near the surface.\\
+It can be modelled as
+\begin{equation}
+F_1=h_g(C_g-C_s)
+\end{equation}
+where $C_g$ is the concentration of species to be deposited in the bulk of the reactor, $C_s$ the concentration near the surface and $h_g$ is the mass transpor coefficient.
+
+\item $F_2$ reaction and deposition flux at the surface.\\
+It can be modelled as
+\begin{equation}
+F_2=k_sC_s
+\end{equation}
+with $k_s$ reaction rate at the surface.\\
+
+\end{itemize}
+In stationary condition this two have to be equal from this I can extract $C_s$ and then remembering that $P_g/P_t=C_g/C_t$ we arrive at the following formula 
+\begin{equation}
+v=\frac{F}{N}=\frac{k_sh_g}{k_s+h_g}\frac{P_g}{P_t}C_t
+\end{equation}
+
+\end{minipage}}
+\raggedright
+
+\subsection{LPCVD}
+
+Form APCVD we can increase the value of $h_g$ since we hope to stay in surface reaction controlled regime decreasing the value of the pressure since 
+\begin{equation}
+h_g=\frac{D_g}{\sigma_g}
+\end{equation}
+where $D_g$ is the diffusivity of the gas and $\sigma_g$ the stagnant layer thickness and $D_g\simeq 1/P$. This means to do a LPCVD.\\
+
+
+%------------------------------------------------------------------------%
+
+\section{PVD}
+
+\subsection{Evaporation from small source}
+
+\centering
+\includegraphics[width=0.5\textwidth]{CVD_evap.png}\\
+\raggedright
+
+
+The evaporation rate form a small surface is defined as 
+\begin{equation}
+v=\frac{R_{evap}}{\pi N r^2}\cos(\theta_i )\cos(\theta_k)
+\end{equation}
+
+where $R_{evap}$ is the evaporation rate and N is the density of the material that we are depositing.\\
+
+%------------------------------------------------------------------------%
+
+
+\section{Etch rate}
+
+\subsection{Linear model}
+The supposition at the base of this model is that chemical and physical etch act in an indipendent maneer.\\
+The total etch rate will be given by
+\begin{equation}
+E=\frac{1}{N}\left( F_ik_i+k_fF_cS_c \right)
+\end{equation}
+with $F_c$ flux of chemical species, $S_c$ sticking coefficient,$k_c$ reaction rate constant, $k_i$ sputtering efficency and $F_i$ flux of ionic species.\\
+\vspace{5mm}
+\subsubsection{Anisotropy}
+The anisotropy value can be found considering that horizontal etch is done only by the chemical species 
+\begin{equation}
+E_{horizontal}=\frac{1}{N}F_cS_ck_f
+\end{equation}
+so the anisotropy constant is 
+\begin{equation}
+A=\frac{E}{E_{horizontal}}=\frac{\left( F_ik_i+k_fF_cS_c \right)}{F_cS_ck_f}
+\end{equation}
+
+
+\subsection{Ion enanched}
+
+Two process cooperating the ion etch and the byproducts deposition.\\
+We can assume the number of deposited byproducts as
+\begin{equation}
+D=S_c(1-\theta)F_c
+\end{equation}
+\\
+With $F_c$ flux of chemical species, $S_c$ sticking coefficient and (1-$\theta$) number of avabile sites.
+The number of byproducts removed as
+\begin{equation}
+R=K_i\theta F_i
+\end{equation}
+\\
+with $K_i$ sputtering efficency, $F_i$ flux of ionic species and $\theta$ number of occupied states.\\
+
+In stationary conditions D=R so we can extract $\theta$ as
+\begin{equation}
+\theta=\frac{1}{1+\frac{K_iF_i}{S_cF_c}}
+\end{equation}
+so substituting this into the R expression we get the etch rate as 
+\begin{equation}
+E=\frac{1}{N}\left(\frac{1}{K_iF_i}+\frac{1}{S_cF_c}\right)
+\end{equation}
+\\
+with N density of the material to be etched.\\
+
+%------------------------------------------------------------------------%
+%------------------------------------------------------------------------%
+\section{Dopants diffusion analytic solutions}
+
+\subsection{Delta function in doped region}
+
+\centering
+\includegraphics[width=0.35\textwidth]{delta_in.png}\\
+\raggedright
+
+\begin{equation}
+C(x,t)=\frac{Q}{2\sqrt{\pi Dt}}exp\left(-\frac{x^2}{4Dt} \right)
+\end{equation}
+
+%------------------------------------------------------------------------%
+
+\subsection{Delta function near a surface}
+Is like a "mirrored" case of the delta function in a doped region
+
+\centering
+\includegraphics[width=0.35\textwidth]{delta_surf.png}\\
+\raggedright
+
+\begin{equation}
+C(x,t)=\frac{Q}{\sqrt{\pi Dt}}exp\left(-\frac{x^2}{4Dt} \right)
+\end{equation}
+
+\subsection{From an infinite source of dopant in silicon}
+Sum of gaussian problems or sum of delta functions 
+
+\centering
+\includegraphics[width=0.35\textwidth]{inf_dop.png}\\
+\raggedright
+
+\begin{equation}
+C(x,t)=\frac{Q}{2}ercf\left(\frac{x}{2\sqrt{Dt}}\right)
+\end{equation}
+
+%------------------------------------------------------------------------%
+
+\subsection{From an infinite source of dopant at surface}
+
+\centering
+\includegraphics[width=0.35\textwidth]{inf_surf.png}\\
+\raggedright
+
+Symmetry considerations leads to 
+\begin{equation}
+C(x,t)=Q\cdot ercf\left(\frac{x}{2\sqrt{Dt}}\right)
+\end{equation}
+
+the dose Q is 
+\begin{equation}
+Q=2C_s \sqrt{\frac{Dt}{\pi}}
+\end{equation}
+
+
+%------------------------------------------------------------------------%
+
+
 
 \section{Ion implant}
 
@@ -130,167 +428,6 @@ By extracting $v^2$ by one of the two and substitutin we get the following expre
 \end{equation}
 
 %------------------------------------------------------------------------%
-%------------------------------------------------------------------------%
-\section{Dopants diffusion analytic solutions}
-
-\subsection{Delta function in doped region}
-
-\centering
-\includegraphics[width=0.35\textwidth]{delta_in.png}\\
-\raggedright
-
-\begin{equation}
-C(x,t)=\frac{Q}{2\sqrt{\pi Dt}}exp\left(-\frac{x^2}{4Dt} \right)
-\end{equation}
-
-%------------------------------------------------------------------------%
-
-\subsection{Delta function near a surface}
-Is like a "mirrored" case of the delta function in a doped region
-
-\centering
-\includegraphics[width=0.35\textwidth]{delta_surf.png}\\
-\raggedright
-
-\begin{equation}
-C(x,t)=\frac{Q}{\sqrt{\pi Dt}}exp\left(-\frac{x^2}{4Dt} \right)
-\end{equation}
-
-\subsection{From an infinite source of dopant in silicon}
-Sum of gaussian problems or sum of delta functions 
-
-\centering
-\includegraphics[width=0.35\textwidth]{inf_dop.png}\\
-\raggedright
-
-\begin{equation}
-C(x,t)=\frac{Q}{2}ercf\left(\frac{x}{2\sqrt{Dt}}\right)
-\end{equation}
-
-%------------------------------------------------------------------------%
-
-\subsection{From an infinite source of dopant at surface}
-
-\centering
-\includegraphics[width=0.35\textwidth]{inf_surf.png}\\
-\raggedright
-
-Symmetry considerations leads to 
-\begin{equation}
-C(x,t)=Q\cdot ercf\left(\frac{x}{2\sqrt{Dt}}\right)
-\end{equation}
-
-the dose Q is 
-\begin{equation}
-Q=2C_s \sqrt{\frac{Dt}{\pi}}
-\end{equation}
-
-
-
-\section{CZ-growth}
-
-\subsection{Doping concetration in the ingot}
-
-CZ growth of silicon gives different doping concentrations for the wafers depending on the distance from the top of the ingot.\\
-The parameters that we need to have the doping concentration at a certain value x are the segregation coefficient k and the initial dose of doping $C_0$
-\begin{equation}
-C=C_0 k (1-f)^{k-1}
-\end{equation}
-\\
-where f is the \% of the ingot where we are.
-
-\vspace{3mm}
-
-\centering
-
-\fbox{\begin{minipage}{40em}
-\centering
-{\bf Dimostration}\\
-\raggedright
-Define 
-\begin{itemize}
-\item $V_0,I_0,C_0$ volume, concentration and number of impurities in the initial fused silicon
-\item $V_l,I_l,C_l$ same of before but in the melted silicon after a certain time t
-\item $V_s,I_s,C_s$ same of before but in the solid cristal
-\end{itemize}
-When a little volume of silicon solidifies the concentration of impurities in the melt varies as 
-\begin{equation}
-dI_l=-kC_ldV_s=-kC_l=\frac{I_l}{V_0-V_s}dV_s
-\end{equation}
-so we can write
-\begin{equation}
-\int_{I_0}^{I_l}\frac{dI_l}{I_l}=\int_0^{V_s}-k \frac{dV_s}{V_0-V_s}
-\end{equation}
-doing the integration and getting rid of the log units we arrive at 
-\begin{equation}
-I_l=I_0 ( 1-\frac{V_s}{V_0} )^k
-\end{equation}
-by using the following relation 
-\begin{equation}
-C_s=-\frac{\partial I_l}{\partial V_s}
-\end{equation}
-we get the result 
-\begin{equation}
-C=C_0 k (1-f)^{k-1}
-\end{equation}
-
-
-\end{minipage}}
-\raggedright
-
-\vspace{3mm}
-
-Form the concentration we can derive the resistivity of the wafer as
-\begin{equation}
-\rho=\frac{1}{q\mu C}
-\end{equation}
-
-\subsection{Maximum pulling rate}
-\begin{equation}
-v_p^{max}=\frac{1}{LN}\sqrt{\frac{2\sigma \varepsilon k_m T_m^5}{3r}}\propto \sqrt{\frac{1}{r}}
-\end{equation}
-
-
-%------------------------------------------------------------------------%
-\section{Deal-Grove model}
-Using the correct tables parameters we can derive the coefficents B and B/A for wet or dry oxidation throught theyr Ahrrenius form 
-\begin{equation}
-B=C_1\cdot exp\left(-\frac{E_1}{kT} \right) \ \ \ \ \ \ \ \ \ \ \ \ B/A=C_2\cdot exp\left(-\frac{E_2}{kT} \right)
-\end{equation}
-or in an alternative way with theyr expressions
-\begin{equation}
-B=\frac{2DHP_G}{N} \ \ \ \ \ \ B/A=\frac{HP_G}{N \left( \frac{1}{k_s}+\frac{1}{h}  \right) }
-\end{equation}
-\\
-remember that 
-\begin{itemize}
-\item B is related to the transport througth the present oxide so it isn't dependent on cristal orientation.
-\item B/A is related to the interaction with the surface it's activation energy it's $\simeq 2eV$ that is the energy to break one Si-Si bond and it's strongly dependent on cristal orientation in fact
-\begin{equation}
-\left(\frac{B}{A}\right)_{<111>}=1.68\left(\frac{B}{A}\right)_{<100>}
-\end{equation}
-\end{itemize}
-Notice that none of the mentioned parameters depends on pressure.\\
-
-\vspace{5mm}
-
-The model gives us the following expression
-\begin{equation}
-\frac{x^2}{B}+\frac{x}{B/A}=t+\tau
-\end{equation}
-\\
-The boundary between the 2 regimes ,parabolic and linear, is given by the following thickness
-\begin{equation}
-x_b=\frac{B}{2B/A}
-\end{equation}
-\\
-\vspace{5mm}
-
-Beware that 46\% of the $SiO_2$ grows inside the silicon and the other 56\% over it.\\
-\vspace{5mm}
-In the first 20nm of $SiO_2$ the model is underestimating the real value of the thikness (exponential term).\\
-
-%------------------------------------------------------------------------%
 
 \section{Lito}
 
@@ -338,11 +475,11 @@ C=\frac{I_{max}-I_{min}}{I_{max}+I_{min}}
 \\
 With equal values of contrast it's better to choose the one with higher $I_{max}$
 
+%------------------------------------------------------------------------%
 
+\section{Back end}
 
-
-
-\section{Technology scaling; propagation delay}
+\subsection{Technology scaling; propagation delay}
 Propagation delay of a metal wire can be modelled as
 \begin{equation}
 \tau\simeq 0.89 \cdot \varepsilon_{oxide}\varepsilon_0 \ \rho \  \frac{A}{F_{min}^2} 
@@ -351,7 +488,7 @@ Propagation delay of a metal wire can be modelled as
 
 %------------------------------------------------------------------------%
 
-\section{Electromigration}
+\subsection{Electromigration}
 The critical lenght of the cluster can be expressed as 
 \begin{equation}
 L_{crit}=\frac{2\sigma_{crit}\Omega}{Z^*q\rho J}
@@ -360,145 +497,6 @@ L_{crit}=\frac{2\sigma_{crit}\Omega}{Z^*q\rho J}
 Where $\Omega$ is the volume of the atom of metal and $\sigma_{crit}$ the value of the maximum stress.\\
 
 %------------------------------------------------------------------------%
-
-\section{Etch rate}
-
-\subsection{Linear model}
-The supposition at the base of this model is that chemical and physical etch act in an indipendent maneer.\\
-The total etch rate will be given by
-\begin{equation}
-E=\frac{1}{N}\left( F_ik_i+k_fF_cS_c \right)
-\end{equation}
-with $F_c$ flux of chemical species, $S_c$ sticking coefficient,$k_c$ reaction rate constant, $k_i$ sputtering efficency and $F_i$ flux of ionic species.\\
-\vspace{5mm}
-\subsubsection{Anisotropy}
-The anisotropy value can be found considering that horizontal etch is done only by the chemical species 
-\begin{equation}
-E_{horizontal}=\frac{1}{N}F_cS_ck_f
-\end{equation}
-so the anisotropy constant is 
-\begin{equation}
-A=\frac{E}{E_{horizontal}}=\frac{\left( F_ik_i+k_fF_cS_c \right)}{F_cS_ck_f}
-\end{equation}
-
-
-\subsection{Ion enanched}
-
-Two process cooperating the ion etch and the byproducts deposition.\\
-We can assume the number of deposited byproducts as
-\begin{equation}
-D=S_c(1-\theta)F_c
-\end{equation}
-\\
-With $F_c$ flux of chemical species, $S_c$ sticking coefficient and (1-$\theta$) number of avabile sites.
-The number of byproducts removed as
-\begin{equation}
-R=K_i\theta F_i
-\end{equation}
-\\
-with $K_i$ sputtering efficency, $F_i$ flux of ionic species and $\theta$ number of occupied states.\\
-
-In stationary conditions D=R so we can extract $\theta$ as
-\begin{equation}
-\theta=\frac{1}{1+\frac{K_iF_i}{S_cF_c}}
-\end{equation}
-so substituting this into the R expression we get the etch rate as 
-\begin{equation}
-E=\frac{1}{N}\left(\frac{1}{K_iF_i}+\frac{1}{S_cF_c}\right)
-\end{equation}
-\\
-with N density of the material to be etched.\\
-
-%------------------------------------------------------------------------%
-
-\section{CVD}
-
-\subsection{Regimes}
-
-\centering
-\includegraphics[width=0.5\textwidth]{CVD.png}\\
-\raggedright
-
-The velocity of deposition of a material in APCVD is determined by the slowest of two proces that operates in parallel; the transport of byproducts through the stagnant layer and the "reaction" with the surface.\\
-The velocity can be mathematically described as 
-\begin{equation}
-v=\frac{k_sh_g}{k_s+h_g}\frac{C_T}{N}Y
-\end{equation}
-where $k_s$ is the chemical surface reaction rate (has an Ahrrenius form so strongly dependent on temperature) and $h_g$ the mass transport coefficient (indipendent form temperature).\\
-We can distinguish in two case 
-\begin{itemize}
-\item $k_s<<h_g$ we are in surface reaction controlled regime; the geometry of the reaction does not matter so much this is the best case
-\item $h_g<<k_s$ mass transport controlled regime; the geometry of the reactor is foundamental to control the stagnant layer 
-\end{itemize}
-
-
-
-%------------------------------------------------------------------------%
-
-\subsection{APCVD rate}
-
-\centering
-
-\fbox{\begin{minipage}{40em}
-\centering
-{\bf Dimostration}\\
-
-Only two fluxes are present in the CVD deposition
-\begin{itemize}
-\item $F_1$ flux of material near the surface.\\
-It can be modelled as
-\begin{equation}
-F_1=h_g(C_g-C_s)
-\end{equation}
-where $C_g$ is the concentration of species to be deposited in the bulk of the reactor, $C_s$ the concentration near the surface and $h_g$ is the mass transpor coefficient.
-
-\item $F_2$ reaction and deposition flux at the surface.\\
-It can be modelled as
-\begin{equation}
-F_2=k_sC_s
-\end{equation}
-with $k_s$ reaction rate at the surface.\\
-
-\end{itemize}
-In stationary condition this two have to be equal from this I can extract $C_s$ and then remembering that $P_g/P_t=C_g/C_t$ we arrive at the following formula 
-\begin{equation}
-v=\frac{F}{N}=\frac{k_sh_g}{k_s+h_g}\frac{P_g}{P_t}C_t
-\end{equation}
-
-\end{minipage}}
-\raggedright
-
-\subsection{LPCVD}
-
-Form APCVD we can increase the value of $h_g$ since we hope to stay in surface reaction controlled regime decreasing the value of the pressure since 
-\begin{equation}
-h_g=\frac{D_g}{\sigma_g}
-\end{equation}
-where $D_g$ is the diffusivity of the gas and $\sigma_g$ the stagnant layer thickness and $D_g\simeq 1/P$. This means to do a LPCVD.\\
-
-
-%------------------------------------------------------------------------%
-
-\section{PVD}
-
-\subsection{Evaporation from small source}
-
-\centering
-\includegraphics[width=0.5\textwidth]{CVD_evap.png}\\
-\raggedright
-
-
-The evaporation rate form a small surface is defined as 
-\begin{equation}
-v=\frac{R_{evap}}{\pi N r^2}\cos(\theta_i )\cos(\theta_k)
-\end{equation}
-
-where $R_{evap}$ is the evaporation rate and N is the density of the material that we are depositing.\\
-
-%------------------------------------------------------------------------%
-
-
-
 
 
 
