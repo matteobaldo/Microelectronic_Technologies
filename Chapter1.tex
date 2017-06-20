@@ -231,6 +231,8 @@ x_b=\frac{B}{2B/A}
 \vspace{5mm}
 
 Beware that 46\% of the $SiO_2$ grows inside the silicon and the other 56\% over it.\\
+\vspace{5mm}
+In the first 20nm of $SiO_2$ the model is underestimating the real value of the thikness (exponential term).\\
 
 %------------------------------------------------------------------------%
 
@@ -303,7 +305,28 @@ Where $\Omega$ is the volume of the atom of metal and $\sigma_{crit}$ the value 
 
 %------------------------------------------------------------------------%
 
-\section{Ion enanched etch rate}
+\section{Etch rate}
+
+\subsection{Linear model}
+The supposition at the base of this model is that chemical and physical etch act in an indipendent maneer.\\
+The total etch rate will be given by
+\begin{equation}
+E=\frac{1}{N}\left( F_ik_i+k_fF_cS_c \right)
+\end{equation}
+with $F_c$ flux of chemical species, $S_c$ sticking coefficient,$k_c$ reaction rate constant, $k_i$ sputtering efficency and $F_i$ flux of ionic species.\\
+\vspace{5mm}
+\subsubsection{Anisotropy}
+The anisotropy value can be found considering that horizontal etch is done only by the chemical species 
+\begin{equation}
+E_{horizontal}=\frac{1}{N}F_cS_ck_f
+\end{equation}
+so the anisotropy constant is 
+\begin{equation}
+A=\frac{E}{E_{horizontal}}=\frac{\left( F_ik_i+k_fF_cS_c \right)}{F_cS_ck_f}
+\end{equation}
+
+
+\subsection{Ion enanched}
 
 Two process cooperating the ion etch and the byproducts deposition.\\
 We can assume the number of deposited byproducts as
@@ -332,7 +355,9 @@ with N density of the material to be etched.\\
 
 %------------------------------------------------------------------------%
 
-\section{CVD regimes}
+\section{CVD}
+
+\subsection{Regimes}
 
 \centering
 \includegraphics[width=0.5\textwidth]{CVD.png}\\
@@ -350,16 +375,11 @@ We can distinguish in two case
 \item $h_g<<k_s$ mass transport controlled regime; the geometry of the reactor is foundamental to control the stagnant layer 
 \end{itemize}
 
-\vspace{5mm}
-We can increase the value of $h_g$ since we hope to stay in surface reaction controlled regime decreasing the value of the pressure since 
-\begin{equation}
-h_g=\frac{D_g}{\sigma_g}
-\end{equation}
-where $D_g$ is the diffusivity of the gas and $\sigma_g$ the stagnant layer thickness and $D_g\simeq 1/P$.\\
+
 
 %------------------------------------------------------------------------%
 
-\section{APCVD rate}
+\subsection{APCVD rate}
 
 \centering
 
@@ -392,9 +412,20 @@ v=\frac{F}{N}=\frac{k_sh_g}{k_s+h_g}\frac{P_g}{P_t}C_t
 \end{minipage}}
 \raggedright
 
+\subsection{LPCVD}
+
+Form APCVD we can increase the value of $h_g$ since we hope to stay in surface reaction controlled regime decreasing the value of the pressure since 
+\begin{equation}
+h_g=\frac{D_g}{\sigma_g}
+\end{equation}
+where $D_g$ is the diffusivity of the gas and $\sigma_g$ the stagnant layer thickness and $D_g\simeq 1/P$. This means to do a LPCVD.\\
+
+
 %------------------------------------------------------------------------%
 
-\section{PVD evaporation from small source}
+\section{PVD}
+
+\subsection{Evaporation from small source}
 
 \centering
 \includegraphics[width=0.5\textwidth]{CVD_evap.png}\\
