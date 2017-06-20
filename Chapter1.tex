@@ -2,7 +2,36 @@
 
 %------------------------------------------------------------------------%
 
-\section{Ion implant range and +1 model}
+\section{Ion implant}
+
+\subsection{Stopping mechanism}
+Two main mechnanism are in action in ion stopping 
+
+\begin{itemize}
+\item $S_n(E)$ Two body collision with other atoms.\\
+Can be modelled as a Coulomb scattering with a correcting factor for the atom shielding. It becomes relevant only at the end of the process.\\
+ 
+\item $S_e(E)$ Dragged by electrons (electronic stopping power).\\
+Polarization fields created by stationary charge atoms creates a viscous space where the ion have to travel. Momentum is exchanged with orbital electrons.\\ 
+The energy can be modelled as a motion into a viscous medium
+\begin{equation}
+S_e(E)=k\sqrt{E}
+\end{equation}
+
+\end{itemize}
+
+The dispersion relation with energy is 
+\begin{equation}
+\frac{dE}{dx}=-N(S_n(E)+S_e(E))
+\end{equation}
+
+That integrated gives us the projected range as
+
+\begin{equation}
+R_p=\int_0^{R_p}dx=\int_0^{E_{implant}} \frac{dE}{N\left(S_n(E)+S_e(E)\right)}
+\end{equation}
+
+\subsection{Range and +1 model}
 
 Given an implant of an element with a dose Q and an energy E we can find form tables the values of 
     \begin{itemize}
@@ -45,21 +74,67 @@ If the silicon is fully amorphised and than re-cristallized there are no interst
 
 %------------------------------------------------------------------------%
 
-\section{Ion implant and dopant diffusion}
+\subsection{With dopant diffusion}
 
 After an implant (with a certain dose Q and having also $R_p$ and $\Delta R_p$) there will always be a therma annealing process for a certain time t at a temperature T.\\
 The profile of the doping will be a gaussian with the standard deviation modified by the diffusion due to thermal threatment so like
 
 \begin{equation}
-C(x)=\frac{Q_i}{\sqrt{2\pi (\Delta R_p^2+2Dt)}}exp\left(-\frac{(x-R_p)}{2(\Delta R_p^2+2Dt)}\right)
+C(x)=\frac{Q_i}{\sqrt{2\pi (\Delta R_p^2+2Dt)}}exp\left(-\frac{(x-R_p)^2}{2(\Delta R_p^2+2Dt)}\right)
 \end{equation} 
 \\
 From this we can know the concentration of dopants for all x.\\
 Beware to correctrly set Q depending on the symmetry of the system.\\
 
 %------------------------------------------------------------------------%
+\subsection{Diffusion length of dopants and supersaturation of I}
+Diffusion length is defined as the sigma of the gaussian considering an annealing process in an inert ambient and not the ion implantation so 
+\begin{equation}
+l_d=\sqrt{D^*t}
+\end{equation}
+where $D^*$ is the equilibrium diffusivity in an inert ambient and it has an Ahrrenius form so depends a lot on temperature.\\
+In case we are in a oxidizing/nitride ambient we have an enanched diffusivity that can be written as
+\begin{equation}
+D_{eff}=D^*\left(\frac{C_I}{C_I^*}f_i+\frac{C_V}{C_V^*}f_v \right)
+\end{equation}
+where we used 
+\begin{itemize}
+\item $f_{i/v}$ interstitial/vacancy type mechanism fraction (tipically one is 1 one is 0)
+\item $C_{V/I}^*$ vacancy/interstitial equilibrium concentration
+\item $C_{V/I}$ vacancy/interstitial concentration
+\end{itemize}
+From this expression we can derive the supersaturation of I or V that is the term $\frac{C_I}{C_I^*}$
+
+%------------------------------------------------------------------------%
+
+\subsection{Analyser; tune for B}
+
+\centering
+\includegraphics[width=0.5\textwidth]{B-curve.png}\\
+\raggedright
+
+Electrons enters in the chamber with potential $V$ where a there is a perpendicular magnetic fiel B. This will make electrons curve with a R.\\
+We can relate the ions mass and the magnetic field considering two equations:\begin{itemize}
+\item Motion equation of ions
+\begin{equation}
+\frac{mv^2}{R}=q|\vec{v}\times \vec{B}|=qvB
+\end{equation}
+\item Conservation of energy
+\begin{equation}
+\frac{1}{2}mv^2=qV
+\end{equation}
+\end{itemize}
+By extracting $v^2$ by one of the two and substitutin we get the following expression
+\begin{equation}
+\sqrt{\frac{m}{q}}=\frac{RB}{\sqrt{2V}}
+\end{equation}
+
+%------------------------------------------------------------------------%
 
 \section{CZ-growth}
+
+\subsection{Doping concetration in the ingot}
+
 CZ growth of silicon gives different doping concentrations for the wafers depending on the distance from the top of the ingot.\\
 The parameters that we need to have the doping concentration at a certain value x are the segregation coefficient k and the initial dose of doping $C_0$
 \begin{equation}
@@ -70,9 +145,53 @@ where f is the \% of the ingot where we are.
 
 \vspace{3mm}
 
+\centering
+
+\fbox{\begin{minipage}{40em}
+\centering
+{\bf Dimostration}\\
+\raggedright
+Define 
+\begin{itemize}
+\item $V_0,I_0,C_0$ volume, concentration and number of impurities in the initial fused silicon
+\item $V_l,I_l,C_l$ same of before but in the melted silicon after a certain time t
+\item $V_s,I_s,C_s$ same of before but in the solid cristal
+\end{itemize}
+When a little volume of silicon solidifies the concentration of impurities in the melt varies as 
+\begin{equation}
+dI_l=-kC_ldV_s=-kC_l=\frac{I_l}{V_0-V_s}dV_s
+\end{equation}
+so we can write
+\begin{equation}
+\int_{I_0}^{I_l}\frac{dI_l}{I_l}=\int_0^{V_s}-k \frac{dV_s}{V_0-V_s}
+\end{equation}
+doing the integration and getting rid of the log units we arrive at 
+\begin{equation}
+I_l=I_0 ( 1-\frac{V_s}{V_0} )^k
+\end{equation}
+by using the following relation 
+\begin{equation}
+C_s=-\frac{\partial I_l}{\partial V_s}
+\end{equation}
+we get the result 
+\begin{equation}
+C=C_0 k (1-f)^{k-1}
+\end{equation}
+
+
+\end{minipage}}
+\raggedright
+
+\vspace{3mm}
+
 Form the concentration we can derive the resistivity of the wafer as
 \begin{equation}
 \rho=\frac{1}{q\mu C}
+\end{equation}
+
+\subsection{Maximum pulling rate}
+\begin{equation}
+v_p^{max}=\frac{1}{LN}\sqrt{\frac{2\sigma \varepsilon k_m T_m^5}{3r}}\propto \sqrt{\frac{1}{r}}
 \end{equation}
 
 %------------------------------------------------------------------------%
@@ -115,7 +234,9 @@ Beware that 46\% of the $SiO_2$ grows inside the silicon and the other 56\% over
 
 %------------------------------------------------------------------------%
 
-\section{Lito resoution limit}
+\section{Lito}
+
+\subsection{Resoution limit}
 Defining some parameters of our lito tool as:\\
 
 \centering
@@ -145,9 +266,13 @@ R=\frac{1}{2}\frac{\lambda}{(1+\sigma)NA}
 \end{equation}
 \\
 
+\subsubsection{Double patterning}
+With double patterning the R calculated before can be reduce further to R/2.\\
+
+
 %------------------------------------------------------------------------%
 
-\section{Lito contrast value}
+\subsection{Contrast value}
 Given a certain profile of aerial image the contrast value is 
 \begin{equation}
 C=\frac{I_{max}-I_{min}}{I_{max}+I_{min}}
@@ -232,20 +357,58 @@ h_g=\frac{D_g}{\sigma_g}
 \end{equation}
 where $D_g$ is the diffusivity of the gas and $\sigma_g$ the stagnant layer thickness and $D_g\simeq 1/P$.\\
 
+%------------------------------------------------------------------------%
+
+\section{APCVD rate}
+
+\centering
+
+\fbox{\begin{minipage}{40em}
+\centering
+{\bf Dimostration}\\
+
+Only two fluxes are present in the CVD deposition
+\begin{itemize}
+\item $F_1$ flux of material near the surface.\\
+It can be modelled as
+\begin{equation}
+F_1=h_g(C_g-C_s)
+\end{equation}
+where $C_g$ is the concentration of species to be deposited in the bulk of the reactor, $C_s$ the concentration near the surface and $h_g$ is the mass transpor coefficient.
+
+\item $F_2$ reaction and deposition flux at the surface.\\
+It can be modelled as
+\begin{equation}
+F_2=k_sC_s
+\end{equation}
+with $k_s$ reaction rate at the surface.\\
+
+\end{itemize}
+In stationary condition this two have to be equal from this I can extract $C_s$ and then remembering that $P_g/P_t=C_g/C_t$ we arrive at the following formula 
+\begin{equation}
+v=\frac{F}{N}=\frac{k_sh_g}{k_s+h_g}\frac{P_g}{P_t}C_t
+\end{equation}
+
+\end{minipage}}
+\raggedright
+
+%------------------------------------------------------------------------%
+
+\section{PVD evaporation from small source}
+
+\centering
+\includegraphics[width=0.5\textwidth]{CVD_evap.png}\\
+\raggedright
 
 
+The evaporation rate form a small surface is defined as 
+\begin{equation}
+v=\frac{R_{evap}}{\pi N r^2}\cos(\theta_i )\cos(\theta_k)
+\end{equation}
 
+where $R_{evap}$ is the evaporation rate and N is the density of the material that we are depositing.\\
 
-
-
-
-
-
-
-
-
-
-
+%------------------------------------------------------------------------%
 
 
 
