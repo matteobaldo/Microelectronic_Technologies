@@ -5,23 +5,28 @@
 \contentsline {subsection}{\numberline {1.1.3}With dopant diffusion}{5}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Diffusion length of dopants and supersaturation of I}{6}{subsection.1.1.4}
 \contentsline {subsection}{\numberline {1.1.5}Analyser; tune for B}{6}{subsection.1.1.5}
-\contentsline {section}{\numberline {1.2}CZ-growth}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Doping concetration in the ingot}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Maximum pulling rate}{8}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Deal-Grove model}{8}{section.1.3}
-\contentsline {section}{\numberline {1.4}Lito}{9}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Resoution limit}{9}{subsection.1.4.1}
-\contentsline {subsubsection}{Double patterning}{9}{section*.2}
-\contentsline {subsection}{\numberline {1.4.2}Contrast value}{9}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Technology scaling; propagation delay}{10}{section.1.5}
-\contentsline {section}{\numberline {1.6}Electromigration}{10}{section.1.6}
-\contentsline {section}{\numberline {1.7}Etch rate}{10}{section.1.7}
-\contentsline {subsection}{\numberline {1.7.1}Linear model}{10}{subsection.1.7.1}
-\contentsline {subsubsection}{Anisotropy}{10}{section*.3}
-\contentsline {subsection}{\numberline {1.7.2}Ion enanched}{10}{subsection.1.7.2}
-\contentsline {section}{\numberline {1.8}CVD}{11}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Regimes}{11}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}APCVD rate}{12}{subsection.1.8.2}
-\contentsline {subsection}{\numberline {1.8.3}LPCVD}{12}{subsection.1.8.3}
-\contentsline {section}{\numberline {1.9}PVD}{13}{section.1.9}
-\contentsline {subsection}{\numberline {1.9.1}Evaporation from small source}{13}{subsection.1.9.1}
+\contentsline {section}{\numberline {1.2}Dopants diffusion analytic solutions}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Delta function in doped region}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Delta function near a surface}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}From an infinite source of dopant in silicon}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}From an infinite source of dopant at surface}{8}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}CZ-growth}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Doping concetration in the ingot}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Maximum pulling rate}{9}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Deal-Grove model}{9}{section.1.4}
+\contentsline {section}{\numberline {1.5}Lito}{10}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Resoution limit}{10}{subsection.1.5.1}
+\contentsline {subsubsection}{Double patterning}{11}{section*.2}
+\contentsline {subsection}{\numberline {1.5.2}Contrast value}{11}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Technology scaling; propagation delay}{11}{section.1.6}
+\contentsline {section}{\numberline {1.7}Electromigration}{11}{section.1.7}
+\contentsline {section}{\numberline {1.8}Etch rate}{11}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Linear model}{11}{subsection.1.8.1}
+\contentsline {subsubsection}{Anisotropy}{12}{section*.3}
+\contentsline {subsection}{\numberline {1.8.2}Ion enanched}{12}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}CVD}{12}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}Regimes}{12}{subsection.1.9.1}
+\contentsline {subsection}{\numberline {1.9.2}APCVD rate}{13}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.3}LPCVD}{13}{subsection.1.9.3}
+\contentsline {section}{\numberline {1.10}PVD}{14}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Evaporation from small source}{14}{subsection.1.10.1}

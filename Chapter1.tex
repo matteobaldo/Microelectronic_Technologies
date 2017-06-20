@@ -130,6 +130,62 @@ By extracting $v^2$ by one of the two and substitutin we get the following expre
 \end{equation}
 
 %------------------------------------------------------------------------%
+%------------------------------------------------------------------------%
+\section{Dopants diffusion analytic solutions}
+
+\subsection{Delta function in doped region}
+
+\centering
+\includegraphics[width=0.35\textwidth]{delta_in.png}\\
+\raggedright
+
+\begin{equation}
+C(x,t)=\frac{Q}{2\sqrt{\pi Dt}}exp\left(-\frac{x^2}{4Dt} \right)
+\end{equation}
+
+%------------------------------------------------------------------------%
+
+\subsection{Delta function near a surface}
+Is like a "mirrored" case of the delta function in a doped region
+
+\centering
+\includegraphics[width=0.35\textwidth]{delta_surf.png}\\
+\raggedright
+
+\begin{equation}
+C(x,t)=\frac{Q}{\sqrt{\pi Dt}}exp\left(-\frac{x^2}{4Dt} \right)
+\end{equation}
+
+\subsection{From an infinite source of dopant in silicon}
+Sum of gaussian problems or sum of delta functions 
+
+\centering
+\includegraphics[width=0.35\textwidth]{inf_dop.png}\\
+\raggedright
+
+\begin{equation}
+C(x,t)=\frac{Q}{2}ercf\left(\frac{x}{2\sqrt{Dt}}\right)
+\end{equation}
+
+%------------------------------------------------------------------------%
+
+\subsection{From an infinite source of dopant at surface}
+
+\centering
+\includegraphics[width=0.35\textwidth]{inf_surf.png}\\
+\raggedright
+
+Symmetry considerations leads to 
+\begin{equation}
+C(x,t)=Q\cdot ercf\left(\frac{x}{2\sqrt{Dt}}\right)
+\end{equation}
+
+the dose Q is 
+\begin{equation}
+Q=2C_s \sqrt{\frac{Dt}{\pi}}
+\end{equation}
+
+
 
 \section{CZ-growth}
 
@@ -194,8 +250,8 @@ Form the concentration we can derive the resistivity of the wafer as
 v_p^{max}=\frac{1}{LN}\sqrt{\frac{2\sigma \varepsilon k_m T_m^5}{3r}}\propto \sqrt{\frac{1}{r}}
 \end{equation}
 
-%------------------------------------------------------------------------%
 
+%------------------------------------------------------------------------%
 \section{Deal-Grove model}
 Using the correct tables parameters we can derive the coefficents B and B/A for wet or dry oxidation throught theyr Ahrrenius form 
 \begin{equation}
