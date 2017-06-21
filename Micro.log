@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  20 JUN 2017 23:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  21 JUN 2017 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,77 +660,86 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [4
 
 ] [5]
-<CVD.png, id=112, 458.71375pt x 351.3125pt>
+<CVD.png, id=114, 458.71375pt x 351.3125pt>
 File: CVD.png Graphic file (type png)
  <use CVD.png>
 Package pdftex.def Info: CVD.png used on input line 112.
 (pdftex.def)             Requested size: 209.12683pt x 160.1637pt.
  [6 <./CVD.png>]
-<CVD_evap.png, id=121, 363.3575pt x 484.81125pt>
+<CVD_evap.png, id=123, 363.3575pt x 484.81125pt>
 File: CVD_evap.png Graphic file (type png)
  <use CVD_evap.png>
 Package pdftex.def Info: CVD_evap.png used on input line 180.
 (pdftex.def)             Requested size: 209.12683pt x 279.03801pt.
  [7]
-[8 <./CVD_evap.png>] <delta_in.png, id=137, 246.9225pt x 202.7575pt>
+[8 <./CVD_evap.png>] <delta_in.png, id=139, 246.9225pt x 202.7575pt>
 File: delta_in.png Graphic file (type png)
 
 <use delta_in.png>
 Package pdftex.def Info: delta_in.png used on input line 249.
 (pdftex.def)             Requested size: 146.39133pt x 120.20442pt.
- <delta_surf.png, id=138, 348.30125pt x 214.8025pt> [9 <./delta_in.png>]
+ <delta_surf.png, id=140, 348.30125pt x 214.8025pt> [9 <./delta_in.png>]
 File: delta_surf.png Graphic file (type png)
  <use delta_surf.png>
 Package pdftex.def Info: delta_surf.png used on input line 262.
 (pdftex.def)             Requested size: 146.39133pt x 90.28198pt.
- <inf_dop.png, id=152, 349.305pt x 178.6675pt>
+ <inf_dop.png, id=154, 349.305pt x 178.6675pt>
 File: inf_dop.png Graphic file (type png)
 
 <use inf_dop.png>
 Package pdftex.def Info: inf_dop.png used on input line 273.
 (pdftex.def)             Requested size: 146.39133pt x 74.87898pt.
- <inf_surf.png, id=153, 290.08376pt x 225.84375pt>
+ <inf_surf.png, id=155, 290.08376pt x 225.84375pt>
 File: inf_surf.png Graphic file (type png)
 
 <use inf_surf.png>
 Package pdftex.def Info: inf_surf.png used on input line 285.
 (pdftex.def)             Requested size: 146.39133pt x 113.97264pt.
  [10 <./delta_surf.png> <./inf_dop.png> <./inf_surf.png>]
-[11] <B-curve.png, id=172, 221.82875pt x 185.69376pt>
+[11] <B-curve.png, id=174, 221.82875pt x 185.69376pt>
 File: B-curve.png Graphic file (type png)
  <use B-curve.png>
 Package pdftex.def Info: B-curve.png used on input line 411.
 (pdftex.def)             Requested size: 209.12683pt x 175.05934pt.
 
-[12] <NA.png, id=182, 605.26125pt x 243.91125pt>
+[12] <NA.png, id=184, 605.26125pt x 243.91125pt>
 File: NA.png Graphic file (type png)
  <use NA.png>
 Package pdftex.def Info: NA.png used on input line 438.
 (pdftex.def)             Requested size: 209.12683pt x 84.276pt.
 
-<sigma.png, id=183, 549.05125pt x 238.8925pt>
+<sigma.png, id=185, 549.05125pt x 238.8925pt>
 File: sigma.png Graphic file (type png)
  <use sigma.png>
 Package pdftex.def Info: sigma.png used on input line 444.
 (pdftex.def)             Requested size: 209.12683pt x 90.9915pt.
- [13 <./B-curve.png> <./NA.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
- [14 <./sigma.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+ [13 <./B-curve.png> <./NA.png>]) (./Chapter2.tex [14 <./sigma.png>]
+Chapter 2.
+<examfig.png, id=204, 898.35625pt x 402.50375pt>
+File: examfig.png Graphic file (type png)
+ <use examfig.png>
+Package pdftex.def Info: examfig.png used on input line 15.
+(pdftex.def)             Requested size: 209.12683pt x 93.69785pt.
+ [15
+
+ <./examfig.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./Micro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 31.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 35.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
  ) 
 Here is how much of TeX's memory you used:
- 7517 strings out of 495028
- 105215 string characters out of 6181497
+ 7532 strings out of 495028
+ 105376 string characters out of 6181497
  199520 words of memory out of 5000000
- 10524 multiletter control sequences out of 15000+600000
+ 10532 multiletter control sequences out of 15000+600000
  9377 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,8n,30p,269b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -747,10 +756,10 @@ ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Micro.pdf (14 pages, 375861 bytes).
+Output written on Micro.pdf (16 pages, 502877 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 325 compressed objects within 4 object streams
- 99 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

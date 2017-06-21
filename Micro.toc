@@ -31,3 +31,4 @@
 \contentsline {section}{\numberline {1.9}Back end}{14}{section.1.9}
 \contentsline {subsection}{\numberline {1.9.1}Technology scaling; propagation delay}{14}{subsection.1.9.1}
 \contentsline {subsection}{\numberline {1.9.2}Electromigration}{14}{subsection.1.9.2}
+\contentsline {chapter}{\numberline {2}Theory questions}{15}{chapter.2}
