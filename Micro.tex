@@ -1,12 +1,17 @@
 	\documentclass[10pt,a4paper]{report}
 	\usepackage{graphicx}
+
+
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
 	\usepackage[utf8]{inputenc}
 	\usepackage{amssymb,amsmath}
 	\usepackage{geometry}
-	\usepackage[bookmarks=true]{hyperref}
-	\usepackage{bookmark}
     \usepackage{wrapfig}
-	%\geometry{article}
 	\usepackage[ampersand]{easylist}	
     \newcommand\tab[1][1cm]{\hspace*{#1}}
 
@@ -26,6 +31,8 @@
 
 %------------------------------------------------------------------------%
 \input{Chapter0}        % Intro page and index
+%------------------------------------------------------------------------%
+\input{info}            % Where to find other materials
 %------------------------------------------------------------------------%
 \input{Chapter1}        % Exams notes
 %------------------------------------------------------------------------%
