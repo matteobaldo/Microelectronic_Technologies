@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  11 JUL 2017 10:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.16)  19 JUL 2017 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,10 +172,57 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count99
+\calc@Bcount=\count100
+\calc@Adimen=\dimen109
+\calc@Bdimen=\dimen110
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count101
+\calc@Cskip=\skip46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks15
+\c@AM@survey=\count102
+\AM@templatesizebox=\box27
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -396,7 +443,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks17
+\@emptytoks=\toks18
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -404,7 +451,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -412,133 +459,133 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen109
+\@emptytoks=\toks19
+\ex@=\dimen111
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen110
+\pmbraise@=\dimen112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count99
+\inf@bad=\count103
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count100
-\leftroot@=\count101
+\uproot@=\count104
+\leftroot@=\count105
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count102
-\DOTSCASE@=\count103
+\classnum@=\count106
+\DOTSCASE@=\count107
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen111
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
+\macc@depth=\count108
+\c@MaxMatrixCols=\count109
 \dotsspace@=\muskip11
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
-\tag@help=\toks19
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
-\andhelp@=\toks20
-\eqnshift@=\dimen112
-\alignsep@=\dimen113
-\tagshift@=\dimen114
-\tagwidth@=\dimen115
-\totwidth@=\dimen116
-\lineht@=\dimen117
-\@envbody=\toks21
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks22
+\c@parentequation=\count110
+\dspbrk@lvl=\count111
+\tag@help=\toks20
+\row@=\count112
+\column@=\count113
+\maxfields@=\count114
+\andhelp@=\toks21
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks22
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count111
-\Gm@cntv=\count112
-\c@Gm@tempcnt=\count113
-\Gm@bindingoffset=\dimen118
-\Gm@wd@mp=\dimen119
-\Gm@odd@mp=\dimen120
-\Gm@even@mp=\dimen121
-\Gm@layoutwidth=\dimen122
-\Gm@layoutheight=\dimen123
-\Gm@layouthoffset=\dimen124
-\Gm@layoutvoffset=\dimen125
-\Gm@dimlist=\toks23
+\Gm@cnth=\count115
+\Gm@cntv=\count116
+\c@Gm@tempcnt=\count117
+\Gm@bindingoffset=\dimen120
+\Gm@wd@mp=\dimen121
+\Gm@odd@mp=\dimen122
+\Gm@even@mp=\dimen123
+\Gm@layoutwidth=\dimen124
+\Gm@layoutheight=\dimen125
+\Gm@layouthoffset=\dimen126
+\Gm@layoutvoffset=\dimen127
+\Gm@dimlist=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen126
-\WF@size=\dimen127
-\c@WF@wrappedlines=\count114
-\WF@box=\box28
-\WF@everypar=\toks24
+\wrapoverhang=\dimen128
+\WF@size=\dimen129
+\c@WF@wrappedlines=\count118
+\WF@box=\box30
+\WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/easylist/easylist.sty
 Package: easylist 2014/01/11 v.1.4 Numbered items with a single command.
-\el@CounterTotal=\count115
-\el@Scratch=\count116
-\el@ControlCounter=\count117
-\el@CounterLevel=\count118
-\c@List1=\count119
-\c@List2=\count120
-\c@List3=\count121
-\c@List4=\count122
-\c@List5=\count123
-\c@List6=\count124
-\c@List7=\count125
-\c@List8=\count126
-\c@List9=\count127
-\c@List10=\count128
-\el@ProgressiveDimension=\dimen128
-\el@CounterBox=\box29
-\el@ControlBox=\box30
-\el@TotalMargin=\dimen129
-\el@LeftMove=\dimen130
+\el@CounterTotal=\count119
+\el@Scratch=\count120
+\el@ControlCounter=\count121
+\el@CounterLevel=\count122
+\c@List1=\count123
+\c@List2=\count124
+\c@List3=\count125
+\c@List4=\count126
+\c@List5=\count127
+\c@List6=\count128
+\c@List7=\count129
+\c@List8=\count130
+\c@List9=\count131
+\c@List10=\count132
+\el@ProgressiveDimension=\dimen130
+\el@CounterBox=\box31
+\el@ControlBox=\box32
+\el@TotalMargin=\dimen131
+\el@LeftMove=\dimen132
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
-Package hyperref Info: Option `linktocpage' set `true' on input line 27.
-Package hyperref Info: Option `pageanchor' set `true' on input line 27.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `linktocpage' set `true' on input line 28.
+Package hyperref Info: Option `pageanchor' set `true' on input line 28.
  (./Micro.aux)
 \openout1 = `Micro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen131
-\scratchbox=\box31
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen132
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count133
+\scratchdimen=\dimen133
+\scratchbox=\box33
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen134
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -554,17 +601,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box32
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-Package hyperref Info: Link coloring ON on input line 30.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -572,11 +610,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./Micro.out) (./Micro.out)
 \@outlinefile=\write3
@@ -652,91 +690,839 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [5
 
 ] [6]
-<CVD.png, id=220, 458.71375pt x 351.3125pt>
+<CVD.png, id=225, 458.71375pt x 351.3125pt>
 File: CVD.png Graphic file (type png)
  <use CVD.png>
 Package pdftex.def Info: CVD.png used on input line 112.
 (pdftex.def)             Requested size: 209.12683pt x 160.1637pt.
  [7 <./CVD.png>]
-<CVD_evap.png, id=230, 363.3575pt x 484.81125pt>
+<CVD_evap.png, id=235, 363.3575pt x 484.81125pt>
 File: CVD_evap.png Graphic file (type png)
  <use CVD_evap.png>
 Package pdftex.def Info: CVD_evap.png used on input line 180.
 (pdftex.def)             Requested size: 209.12683pt x 279.03801pt.
  [8]
-[9 <./CVD_evap.png>] <delta_in.png, id=245, 246.9225pt x 202.7575pt>
+[9 <./CVD_evap.png>] <delta_in.png, id=250, 246.9225pt x 202.7575pt>
 File: delta_in.png Graphic file (type png)
 
 <use delta_in.png>
 Package pdftex.def Info: delta_in.png used on input line 253.
 (pdftex.def)             Requested size: 146.39133pt x 120.20442pt.
- <delta_surf.png, id=246, 348.30125pt x 214.8025pt> [10 <./delta_in.png>]
+ <delta_surf.png, id=251, 348.30125pt x 214.8025pt> [10 <./delta_in.png>]
 File: delta_surf.png Graphic file (type png)
  <use delta_surf.png>
 Package pdftex.def Info: delta_surf.png used on input line 266.
 (pdftex.def)             Requested size: 146.39133pt x 90.28198pt.
 
-<inf_dop.png, id=259, 349.305pt x 178.6675pt>
+<inf_dop.png, id=264, 349.305pt x 178.6675pt>
 File: inf_dop.png Graphic file (type png)
  <use inf_dop.png>
 Package pdftex.def Info: inf_dop.png used on input line 277.
 (pdftex.def)             Requested size: 146.39133pt x 74.87898pt.
 
-<inf_surf.png, id=260, 290.08376pt x 225.84375pt>
+<inf_surf.png, id=265, 290.08376pt x 225.84375pt>
 File: inf_surf.png Graphic file (type png)
  <use inf_surf.png>
 Package pdftex.def Info: inf_surf.png used on input line 289.
 (pdftex.def)             Requested size: 146.39133pt x 113.97264pt.
  [11 <./delta_surf.png> <./inf_dop.png> <./inf_surf.png>] [12]
-<B-curve.png, id=279, 221.82875pt x 185.69376pt>
+<B-curve.png, id=285, 221.82875pt x 185.69376pt>
 File: B-curve.png Graphic file (type png)
  <use B-curve.png>
 Package pdftex.def Info: B-curve.png used on input line 415.
 (pdftex.def)             Requested size: 209.12683pt x 175.05934pt.
  [13]
-<NA.png, id=291, 605.26125pt x 243.91125pt>
+<NA.png, id=296, 605.26125pt x 243.91125pt>
 File: NA.png Graphic file (type png)
  <use NA.png>
 Package pdftex.def Info: NA.png used on input line 442.
 (pdftex.def)             Requested size: 209.12683pt x 84.276pt.
 
-<sigma.png, id=292, 549.05125pt x 238.8925pt>
+<sigma.png, id=297, 549.05125pt x 238.8925pt>
 File: sigma.png Graphic file (type png)
  <use sigma.png>
 Package pdftex.def Info: sigma.png used on input line 448.
 (pdftex.def)             Requested size: 209.12683pt x 90.9915pt.
  [14 <./B-curve.png> <./NA.png>]) (./Chapter2.tex [15 <./sigma.png>]
 Chapter 2.
-<examfig.png, id=310, 898.35625pt x 402.50375pt>
+<examfig.png, id=315, 898.35625pt x 402.50375pt>
 File: examfig.png Graphic file (type png)
  <use examfig.png>
 Package pdftex.def Info: examfig.png used on input line 15.
 (pdftex.def)             Requested size: 209.12683pt x 93.69785pt.
  [16
 
- <./examfig.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+ <./examfig.png>]) (./Chapter3.tex [17]
+Chapter 3.
+<Microelectronics_technologies_handnotes.pdf, id=324, 598.235pt x 845.1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf used on in
+put line 4.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf used on in
+put line 4.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+ [18
+
+]
+<Microelectronics_technologies_handnotes.pdf, id=331, page=1, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 1>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page1 use
+d on input line 4.
+(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 1>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page1 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 1>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page1 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 1>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page1 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 1>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page1 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [19 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=339, page=2, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 2>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page2 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 2>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page2 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 2>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page2 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [20 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=345, page=3, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 3>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page3 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 3>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page3 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 3>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page3 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [21 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=351, page=4, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 4>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page4 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 4>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page4 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 4>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page4 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [22 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=357, page=5, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 5>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page5 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 5>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page5 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 5>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page5 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [23 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=363, page=6, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 6>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page6 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 6>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page6 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 6>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page6 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [24 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=369, page=7, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 7>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page7 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 7>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page7 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 7>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page7 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [25 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=376, page=8, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 8>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page8 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 8>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page8 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 8>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page8 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [26 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=382, page=9, 598.235pt x 845.1
+575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 9>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page9 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 9>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page9 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 9>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page9 use
+d on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [27 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=388, page=10, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 10>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page10 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 10>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page10 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 10>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page10 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [28 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=394, page=11, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 11>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page11 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 11>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page11 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 11>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page11 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [29 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=400, page=12, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 12>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page12 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 12>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page12 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 12>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page12 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [30 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=406, page=13, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 13>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page13 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 13>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page13 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 13>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page13 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [31 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=413, page=14, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 14>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page14 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 14>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page14 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 14>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page14 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [32 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=419, page=15, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 15>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page15 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 15>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page15 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 15>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page15 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [33 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=425, page=16, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 16>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page16 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 16>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page16 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 16>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page16 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [34 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=431, page=17, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 17>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page17 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 17>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page17 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 17>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page17 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [35 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=437, page=18, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 18>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page18 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 18>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page18 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 18>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page18 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [36 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=443, page=19, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 19>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page19 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 19>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page19 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 19>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page19 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [37 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=451, page=20, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 20>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page20 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 20>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page20 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 20>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page20 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [38 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=457, page=21, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 21>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page21 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 21>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page21 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 21>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page21 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [39 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=463, page=22, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 22>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page22 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 22>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page22 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 22>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page22 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [40 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=469, page=23, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 23>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page23 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 23>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page23 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 23>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page23 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [41 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=475, page=24, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 24>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page24 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 24>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page24 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 24>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page24 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [42 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=481, page=25, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 25>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page25 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 25>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page25 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 25>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page25 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [43 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=488, page=26, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 26>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page26 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 26>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page26 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 26>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page26 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [44 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=494, page=27, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 27>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page27 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 27>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page27 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 27>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page27 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [45 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=500, page=28, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 28>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page28 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 28>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page28 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 28>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page28 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [46 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=506, page=29, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 29>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page29 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 29>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page29 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 29>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page29 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [47 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=512, page=30, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 30>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page30 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 30>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page30 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 30>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page30 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [48 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=518, page=31, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 31>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page31 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 31>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page31 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 31>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page31 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [49 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=525, page=32, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 32>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page32 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 32>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page32 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 32>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page32 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [50 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=531, page=33, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 33>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page33 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 33>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page33 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 33>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page33 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [51 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=537, page=34, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 34>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page34 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 34>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page34 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 34>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page34 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [52 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=543, page=35, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 35>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page35 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 35>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page35 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 35>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page35 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [53 <./Microelectronics_technologies_handnotes.pdf>]
+<Microelectronics_technologies_handnotes.pdf, id=549, page=36, 598.235pt x 845.
+1575pt>
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+ <use Microelectronics_technologies_handnotes.pdf, page 36>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page36 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 36>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page36 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Microelectronics_technologies_handnotes.pdf Graphic file (type pdf)
+
+<use Microelectronics_technologies_handnotes.pdf, page 36>
+Package pdftex.def Info: Microelectronics_technologies_handnotes.pdf, page36 us
+ed on input line 4.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+ [54 <./Microelectronics_technologies_handnotes.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./Micro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `Micro.out' has not changed.
-(rerunfilecheck)             Checksum: EBFB53DF7AFB76CFABBD8EAC835B209D;2273.
+(rerunfilecheck)             Checksum: FF928C2233DC54F84E3F20C0AEDD0A98;2319.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 7284 strings out of 495028
- 101567 string characters out of 6181497
- 193406 words of memory out of 5000000
- 10286 multiletter control sequences out of 15000+600000
+ 8516 strings out of 495028
+ 122829 string characters out of 6181497
+ 217262 words of memory out of 5000000
+ 11454 multiletter control sequences out of 15000+600000
  9545 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,28p,264b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,46p,264b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -751,10 +1537,10 @@ sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Micro.pdf (17 pages, 514872 bytes).
+Output written on Micro.pdf (54 pages, 11725506 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

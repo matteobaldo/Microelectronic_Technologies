@@ -32,3 +32,4 @@
 \contentsline {subsection}{\numberline {1.9.1}Technology scaling; propagation delay}{15}{subsection.1.9.1}
 \contentsline {subsection}{\numberline {1.9.2}Electromigration}{15}{subsection.1.9.2}
 \contentsline {chapter}{\numberline {2}Theory questions}{16}{chapter.2}
+\contentsline {chapter}{\numberline {3}Hand-Notes}{18}{chapter.3}
